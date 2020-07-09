@@ -127,19 +127,24 @@ Whack-a-Mole Section
 }
 
 /*############################
-Projects Section
+My Interests Section
 ############################*/
 
-.myProjects {
+.myInterests {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.myProjects img {
+.myInterests img {
     width: 400px;
     height: 400px;
     margin: 1% 0;
+}
+
+.myInterests p {
+    width: 1%;
 }
 
 /*############################
