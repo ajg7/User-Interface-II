@@ -74,7 +74,7 @@ About Section
 }
 
 .about .about-img img {
-    height: 500px;
+    height: 550px;
     width: 500px;
 }
 
@@ -89,5 +89,20 @@ About Section
 
 /*############################
 Projects Section
+############################*/
+
+.myProjects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.myProjects img {
+    width: 150px;
+    height: 150px;
+}
+
+/*############################
+Contact Section
 ############################*/
 
