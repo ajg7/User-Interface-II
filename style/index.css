@@ -18,6 +18,10 @@ body {
     animation-duration: 1.75s;
 }
 
+body h1:hover, body h2:hover, body h3:hover, body p:hover {
+    color: #ADFF2F;
+}
+
 
 img {
     height: 75px;
@@ -92,7 +96,7 @@ About Section
 
 .about .about-img img {
     height: 550px;
-    width: 500px;
+    width: 400px;
 }
 
 .about .about-info  {
@@ -128,13 +132,14 @@ Projects Section
 
 .myProjects {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
 .myProjects img {
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 400px;
+    margin: 1% 0;
 }
 
 /*############################
@@ -143,6 +148,21 @@ Contact Section
 
 footer div button {
     margin: 1% 0;
+    color: #FFFFFF;
+    background: blue;
+    font-size: 1rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 25%;
+}
+
+footer div button:hover {
+    transition: all 0.5s linear 0;
+    background: #ADFF2F;
+    color: #000000;
+}
+
+footer div button:focus {
+    font-weight: bold;
 }
 
 footer .social-media img {
