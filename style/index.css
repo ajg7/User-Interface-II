@@ -63,3 +63,31 @@ header nav a:hover {
 header nav a:focus {
     font-weight: bold;
 }
+
+/*############################
+About Section
+############################*/
+
+.about {
+    display: flex;
+    justify-content: center;
+}
+
+.about .about-img img {
+    height: 500px;
+    width: 500px;
+}
+
+.about .about-info  {
+    width: 30%;
+    margin: 10%
+}
+
+.about .about-info h2, .about .about-info button{
+    margin-bottom: 5%;
+}
+
+/*############################
+Projects Section
+############################*/
+
