@@ -1,0 +1,175 @@
+/* Add CSS styling here */
+
+/*############################
+General Stylings
+############################*/
+
+*{
+    cursor: url('mallet.png'), auto;
+}
+
+@keyframes entrance {
+    0% {margin-left: 80%; opacity: 0;}
+    100% {margin-left: 0; opacity: 1;}
+}
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+    animation-name: entrance;
+    animation-duration: 1.75s;
+}
+
+body h1:hover, body h2:hover, body h3:hover, body p:hover {
+    color: #ADFF2F;
+}
+
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;
+}
+
+h2, h3 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 2%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c133420-535f-42ae-b209-87fd897ada90/d8uvull-41a9ae34-dd43-4e08-9784-e99e622d79e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2MxMzM0MjAtNTM1Zi00MmFlLWIyMDktODdmZDg5N2FkYTkwXC9kOHV2dWxsLTQxYTlhZTM0LWRkNDMtNGUwOC05Nzg0LWU5OWU2MjJkNzllMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.m5768kLsIA7vV1ZJETqXiAAWX6KTe-FLo5MvSwZaySg");
+}
+
+footer {
+    margin-top: 2%;
+    background: #008000;
+    text-align: center;
+}
+
+
+/*############################
+Nav Bar
+############################*/
+
+nav a {
+    color: #FFFFFF;
+    background: blue;
+    font-size: 1rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 25%;
+}
+
+header nav, header nav a {
+    margin: 20px;
+    padding: 10px;
+}
+
+header nav a:hover {
+    transition: all 0.5s linear 0;
+    background: #ADFF2F;
+    color: #000000;
+}
+
+header nav a:focus {
+    font-weight: bold;
+}
+
+/*############################
+Whack-a-Mole Section
+############################*/
+
+.whack-a-mole {
+    display: flex;
+    justify-content: center;
+}
+
+.whack-a-mole .whack-a-mole-img img {
+    height: 550px;
+    width: 575px;
+}
+
+.whack-a-mole .whack-a-mole-info  {
+    width: 30%;
+    margin: 10%
+}
+
+.whack-a-mole .whack-a-mole-info button {
+    color: #FFFFFF;
+    background: blue;
+    font-size: 1rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 25%;
+}
+
+.whack-a-mole .whack-a-mole-info button:hover {
+    transition: all 0.5s linear 0;
+    background: #ADFF2F;
+    color: #000000;
+}
+
+.whack-a-mole .whack-a-mole-info button:focus {
+    font-weight: bold;
+}
+
+.whack-a-mole .whack-a-mole-info h2, .whack-a-mole .whack-a-mole-info button{
+    margin-bottom: 5%;
+}
+
+/*############################
+Projects Section
+############################*/
+
+.myProjects {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.myProjects img {
+    width: 400px;
+    height: 400px;
+    margin: 1% 0;
+}
+
+/*############################
+Contact Section
+############################*/
+
+footer div button {
+    margin: 1% 0;
+    color: #FFFFFF;
+    background: blue;
+    font-size: 1rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 25%;
+}
+
+footer div button:hover {
+    transition: all 0.5s linear 0;
+    background: #ADFF2F;
+    color: #000000;
+}
+
+footer div button:focus {
+    font-weight: bold;
+}
+
+footer .social-media img {
+    height: 25px;
+    width: 25px;
+}
