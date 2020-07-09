@@ -19,6 +19,7 @@ img {
 h1 {
     font-size: 4rem;
     font-family: 'Bangers', cursive;
+    
 }
 
 h2, h3 {
@@ -34,8 +35,22 @@ a {
 }
 
 header {
+    margin-bottom: 2%;
     background-image: url("https://wallpaperaccess.com/full/19811.jpg");
 }
+
+footer {
+    margin-top: 2%;
+    background: #008000;
+    text-align: center;
+}
+
+/*############################
+Name 
+############################*/
+
+
+
 
 /*############################
 Nav Bar
@@ -106,3 +121,11 @@ Projects Section
 Contact Section
 ############################*/
 
+footer div button {
+    margin: 1% 0;
+}
+
+footer .social-media img {
+    height: 25px;
+    width: 25px;
+}
