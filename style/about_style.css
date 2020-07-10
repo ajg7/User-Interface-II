@@ -18,7 +18,7 @@ body {
     animation-duration: 1.75s;
 }
 
-body h1:hover, body h2:hover, body h3:hover, body p:hover {
+body h1:hover, body h2:hover, body h3:hover, body p:hover, li:hover {
     color: #ADFF2F;
 }
 
@@ -38,7 +38,11 @@ h2, h3 {
     font-size: 2.5rem;
 }
 
-p {
+ul {
+    margin: 10px;
+}
+
+p, li {
     font-size: 1rem;
 }
 
@@ -48,7 +52,7 @@ a {
 
 header {
     margin-bottom: 2%;
-    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c133420-535f-42ae-b209-87fd897ada90/d8uvull-41a9ae34-dd43-4e08-9784-e99e622d79e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2MxMzM0MjAtNTM1Zi00MmFlLWIyMDktODdmZDg5N2FkYTkwXC9kOHV2dWxsLTQxYTlhZTM0LWRkNDMtNGUwOC05Nzg0LWU5OWU2MjJkNzllMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.m5768kLsIA7vV1ZJETqXiAAWX6KTe-FLo5MvSwZaySg");
+    background-image: url("../science-background.jpg");
 }
 
 footer {
@@ -86,25 +90,33 @@ header nav a:focus {
 }
 
 /*############################
-Whack-a-Mole Section
+About Section
 ############################*/
 
-.whack-a-mole {
+.about {
     display: flex;
     justify-content: center;
 }
 
-.whack-a-mole .whack-a-mole-img img {
+.about .about-img img {
     height: 550px;
-    width: 575px;
+    width: 100%;
 }
 
-.whack-a-mole .whack-a-mole-info  {
-    width: 30%;
+.about .about-info  {
+    width: 35%;
     margin: 10%
 }
 
-.whack-a-mole .whack-a-mole-info button {
+.about .about-info ul {
+    border: 5px solid green;
+}
+
+.about .about-info li {
+    margin: 10px;
+}
+
+.about .about-info button {
     color: #FFFFFF;
     background: blue;
     font-size: 1rem;
@@ -112,17 +124,17 @@ Whack-a-Mole Section
     border-radius: 25%;
 }
 
-.whack-a-mole .whack-a-mole-info button:hover {
+.about .about-info button:hover {
     transition: all 0.5s linear 0;
     background: #ADFF2F;
     color: #000000;
 }
 
-.whack-a-mole .whack-a-mole-info button:focus {
+.about .about-info button:focus {
     font-weight: bold;
 }
 
-.whack-a-mole .whack-a-mole-info h2, .whack-a-mole .whack-a-mole-info button{
+.about .about-info h2, .about .about-info button{
     margin-bottom: 5%;
 }
 
@@ -133,19 +145,24 @@ My Interests Section
 .myInterests {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: start;
     flex-wrap: wrap;
 }
 
-.myInterests img {
-    width: 400px;
-    height: 400px;
+.myInterests div {
+    width: 300px;
+    margin: 10px;
+    border-radius: 4px;
+    background: green;
+    color: white;
+}
+
+.myInterests div img {
+    width: 100%;
+    height: 250px;
     margin: 1% 0;
 }
 
-.myInterests p {
-    width: 1%;
-}
 
 /*############################
 Contact Section

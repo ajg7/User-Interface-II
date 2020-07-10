@@ -1,0 +1,110 @@
+/* Add CSS styling here */
+
+/*############################
+General Stylings
+############################*/
+
+@keyframes entrance {
+    0% {margin-left: 80%; opacity: 0;}
+    100% {margin-left: 0; opacity: 1;}
+}
+
+body {
+    background: #000000;
+    color: #FFFFFF;
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+    animation-name: entrance;
+    animation-duration: 1.75s;
+}
+
+body h1:hover, body h2:hover, body h3:hover, body p:hover {
+    color: #ADFF2F;
+}
+
+
+img {
+    height: 75px;
+    width: 75px;
+}
+
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Bangers', cursive;
+}
+
+h2, h3 {
+    font-size: 2.5rem;
+}
+
+form {
+    font-size: 1.5rem;
+    background: blue;
+    color: white;
+}
+
+p {
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 2%;
+    background-image: url("https://www.tech-res.com/img/SubBanner-Communications.png");
+}
+
+footer {
+    margin-top: 2%;
+    background: #008000;
+    text-align: center;
+}
+
+
+/*############################
+Nav Bar
+############################*/
+
+nav a {
+    color: #FFFFFF;
+    background: blue;
+    font-size: 1rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 25%;
+}
+
+header nav, header nav a {
+    margin: 20px;
+    padding: 10px;
+}
+
+header nav a:hover {
+    transition: all 0.5s linear 0;
+    background: #ADFF2F;
+    color: #000000;
+}
+
+header nav a:focus {
+    font-weight: bold;
+}
+
+
+/*############################
+Contact Form
+############################*/
+
+.contact-request div{
+    text-align: center;
+    margin: 25px 0;
+}
+
+/*############################
+Footer
+############################*/
+
+footer p {
+    margin: 5px 0;
+}
