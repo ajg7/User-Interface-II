@@ -149,6 +149,12 @@ About Section
   margin: 10%;
 }
 
+@media (max-width: 800px) {
+  .about .about-info {
+    width: 100%;
+  }
+}
+
 @media(max-width: 500px) {
   .about .about-info {
     width: 90%;
@@ -192,6 +198,14 @@ Projects Section
   width: 400px;
   height: 400px;
   margin: 1% 0;
+}
+
+@media (max-width: 800px) {
+  .myProjects img {
+    width: 275px;
+    height: 275px;
+    margin: 50px 0;
+  }
 }
 
 @media (max-width: 500px) {
