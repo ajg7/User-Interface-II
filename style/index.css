@@ -58,6 +58,7 @@ header {
   background-image: url("https://wallpaperaccess.com/full/19811.jpg");
 }
 
+
 footer {
   margin-top: 2%;
   background: #008000;
@@ -76,6 +77,14 @@ nav a {
   border-radius: 25%;
 }
 
+@media(max-width:500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
 header nav,
 header nav a {
   margin: 20px;
@@ -92,6 +101,19 @@ header nav a:focus {
   font-weight: bold;
 }
 
+@media(max-width:500px) {
+  header nav, header nav a{
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0%;
+  }
+  header nav a{
+    text-align: center;
+  }
+}
+
+
 /*############################
 About Section
 ############################*/
@@ -101,14 +123,36 @@ About Section
   justify-content: center;
 }
 
+@media(max-width:500px) {
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .about .about-img img {
   height: 550px;
   width: 400px;
 }
 
+@media(max-width: 500px) {
+  .about .about-img img {
+    height: 85%;
+    width: 60%;
+    margin: 0 25%;
+  }
+}
+
 .about .about-info {
   width: 30%;
   margin: 10%;
+}
+
+@media(max-width: 500px) {
+  .about .about-info {
+    width: 90%;
+  }
 }
 
 .about .about-info button {
@@ -150,9 +194,24 @@ Projects Section
   margin: 1% 0;
 }
 
+@media (max-width: 500px) {
+  .myProjects img {
+    width: 40%;
+    height: 40%;
+    margin: 5% 5%;
+  }
+}
+
 /*############################
 Contact Section
 ############################*/
+
+@media(max-width:500px) {
+  footer {
+    width: 100%;
+    height: 75%;
+  }
+}
 
 footer div button {
   margin: 1% 0;
