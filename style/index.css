@@ -2,6 +2,10 @@
 General Stylings
 ############################*/
 
+* {
+  box-sizing: border-box;
+}
+
 @keyframes entrance {
   0% {
     margin-left: 80%;
@@ -82,13 +86,19 @@ nav a {
   border-radius: 25%;
 }
 
+@media(max-width:800px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+
 @media(max-width:500px) {
   nav {
     display: flex;
     flex-direction: column;
   }
 }
-
 
 header nav,
 header nav a {
@@ -107,17 +117,16 @@ header nav a:focus {
 }
 
 @media (max-width: 800px) {
-  header nav, header nav a{
-    margin: 0;
+  header nav {
     flex-direction: column;
     align-items: center;
-    border-radius: 0%;
   }
   header nav a{
     text-align: center;
+    margin: 0;
+    border-radius: 0%;
   }
 }
-
 
 /*############################
 About Section
@@ -130,7 +139,6 @@ About Section
 
 @media(max-width:500px) {
   .about {
-    display: flex;
     flex-direction: column;
     align-items: center;
   }
@@ -142,10 +150,14 @@ About Section
 }
 
 @media(max-width: 500px) {
+  .about-img {
+    display: flex;
+    justify-content: center;
+  }
+
   .about .about-img img {
     height: 85%;
     width: 60%;
-    margin: 0 25%;
   }
 }
 
