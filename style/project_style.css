@@ -1,10 +1,8 @@
+/* Add CSS styling here */
+
 /*############################
 General Stylings
 ############################*/
-
-* {
-  box-sizing: border-box;
-}
 
 @keyframes entrance {
   0% {
@@ -59,13 +57,7 @@ a {
 
 header {
   margin-bottom: 2%;
-  background-image: url("https://wallpaperaccess.com/full/19811.jpg");
-}
-
-@media (max-width:800px) {
-  header h1 {
-    text-align: center;
-  }
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c133420-535f-42ae-b209-87fd897ada90/d8uvull-41a9ae34-dd43-4e08-9784-e99e622d79e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2MxMzM0MjAtNTM1Zi00MmFlLWIyMDktODdmZDg5N2FkYTkwXC9kOHV2dWxsLTQxYTlhZTM0LWRkNDMtNGUwOC05Nzg0LWU5OWU2MjJkNzllMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.m5768kLsIA7vV1ZJETqXiAAWX6KTe-FLo5MvSwZaySg");
 }
 
 footer {
@@ -86,20 +78,6 @@ nav a {
   border-radius: 25%;
 }
 
-@media(max-width:800px) {
-  nav {
-    display: flex;
-    justify-content: center;
-  }
-}
-
-@media(max-width:500px) {
-  nav {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
 header nav,
 header nav a {
   margin: 20px;
@@ -116,69 +94,26 @@ header nav a:focus {
   font-weight: bold;
 }
 
-@media (max-width: 800px) {
-  header nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  header nav a{
-    text-align: center;
-    margin: 0;
-    border-radius: 0%;
-  }
-}
-
 /*############################
-About Section
+Whack-a-Mole Section
 ############################*/
 
-.about {
+.whack-a-mole {
   display: flex;
   justify-content: center;
 }
 
-@media(max-width:500px) {
-  .about {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-.about .about-img img {
+.whack-a-mole .whack-a-mole-img img {
   height: 550px;
-  width: 400px;
+  width: 575px;
 }
 
-@media(max-width: 500px) {
-  .about-img {
-    display: flex;
-    justify-content: center;
-  }
-
-  .about .about-img img {
-    height: 85%;
-    width: 60%;
-  }
-}
-
-.about .about-info {
+.whack-a-mole .whack-a-mole-info {
   width: 30%;
   margin: 10%;
 }
 
-@media (max-width: 800px) {
-  .about .about-info {
-    width: 100%;
-  }
-}
-
-@media(max-width: 500px) {
-  .about .about-info {
-    width: 90%;
-  }
-}
-
-.about .about-info button {
+.whack-a-mole .whack-a-mole-info button {
   color: #ffffff;
   background: blue;
   font-size: 1rem;
@@ -186,18 +121,18 @@ About Section
   border-radius: 25%;
 }
 
-.about .about-info button:hover {
+.whack-a-mole .whack-a-mole-info button:hover {
   transition: all 0.5s linear 0;
   background: #adff2f;
   color: #000000;
 }
 
-.about .about-info button:focus {
+.whack-a-mole .whack-a-mole-info button:focus {
   font-weight: bold;
 }
 
-.about .about-info h2,
-.about .about-info button {
+.whack-a-mole .whack-a-mole-info h2,
+.whack-a-mole .whack-a-mole-info button {
   margin-bottom: 5%;
 }
 
@@ -211,54 +146,15 @@ Projects Section
   flex-wrap: wrap;
 }
 
-@media (max-width: 800px) {
-  .myProjects {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (max-width: 500px) {
-  .myProjects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-  }
-}
-
 .myProjects img {
   width: 400px;
   height: 400px;
   margin: 1% 0;
 }
 
-@media (max-width: 800px) {
-  .myProjects img{
-    width: 40%;
-    height: 40%;
-    margin: 5% 5%;
-  }
-}
-
-@media (max-width: 500px) {
-  .myProjects img {
-    width: 40%;
-    height: 40%;
-    margin: 5% 5%;
-  }
-}
-
 /*############################
 Contact Section
 ############################*/
-
-@media(max-width:500px) {
-  footer {
-    width: 100%;
-    height: 75%;
-  }
-}
 
 footer div button {
   margin: 1% 0;
@@ -275,13 +171,6 @@ footer div button:hover {
   color: #000000;
 }
 
-@media(max-width: 500px) {
-  footer div button {
-    border-radius: 0%;
-    font-size: 1.2rem;
-  }
-}
-
 footer div button:focus {
   font-weight: bold;
 }
@@ -290,4 +179,3 @@ footer .social-media img {
   height: 25px;
   width: 25px;
 }
-
