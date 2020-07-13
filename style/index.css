@@ -58,6 +58,11 @@ header {
   background-image: url("https://wallpaperaccess.com/full/19811.jpg");
 }
 
+@media (max-width:800px) {
+  header h1 {
+    text-align: center;
+  }
+}
 
 footer {
   margin-top: 2%;
@@ -101,7 +106,7 @@ header nav a:focus {
   font-weight: bold;
 }
 
-@media(max-width:500px) {
+@media (max-width: 800px) {
   header nav, header nav a{
     margin: 0;
     flex-direction: column;
@@ -194,6 +199,22 @@ Projects Section
   flex-wrap: wrap;
 }
 
+@media (max-width: 800px) {
+  .myProjects {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .myProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
 .myProjects img {
   width: 400px;
   height: 400px;
@@ -201,10 +222,10 @@ Projects Section
 }
 
 @media (max-width: 800px) {
-  .myProjects img {
-    width: 275px;
-    height: 275px;
-    margin: 50px 0;
+  .myProjects img{
+    width: 40%;
+    height: 40%;
+    margin: 5% 5%;
   }
 }
 
