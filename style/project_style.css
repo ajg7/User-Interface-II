@@ -1,3 +1,5 @@
+/* Add CSS styling here */
+
 /*############################
 General Stylings
 ############################*/
@@ -55,7 +57,7 @@ a {
 
 header {
   margin-bottom: 2%;
-  background-image: url("https://wallpaperaccess.com/full/19811.jpg");
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3c133420-535f-42ae-b209-87fd897ada90/d8uvull-41a9ae34-dd43-4e08-9784-e99e622d79e0.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvM2MxMzM0MjAtNTM1Zi00MmFlLWIyMDktODdmZDg5N2FkYTkwXC9kOHV2dWxsLTQxYTlhZTM0LWRkNDMtNGUwOC05Nzg0LWU5OWU2MjJkNzllMC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.m5768kLsIA7vV1ZJETqXiAAWX6KTe-FLo5MvSwZaySg");
 }
 
 footer {
@@ -93,25 +95,25 @@ header nav a:focus {
 }
 
 /*############################
-About Section
+Whack-a-Mole Section
 ############################*/
 
-.about {
+.whack-a-mole {
   display: flex;
   justify-content: center;
 }
 
-.about .about-img img {
+.whack-a-mole .whack-a-mole-img img {
   height: 550px;
-  width: 400px;
+  width: 575px;
 }
 
-.about .about-info {
+.whack-a-mole .whack-a-mole-info {
   width: 30%;
   margin: 10%;
 }
 
-.about .about-info button {
+.whack-a-mole .whack-a-mole-info button {
   color: #ffffff;
   background: blue;
   font-size: 1rem;
@@ -119,18 +121,18 @@ About Section
   border-radius: 25%;
 }
 
-.about .about-info button:hover {
+.whack-a-mole .whack-a-mole-info button:hover {
   transition: all 0.5s linear 0;
   background: #adff2f;
   color: #000000;
 }
 
-.about .about-info button:focus {
+.whack-a-mole .whack-a-mole-info button:focus {
   font-weight: bold;
 }
 
-.about .about-info h2,
-.about .about-info button {
+.whack-a-mole .whack-a-mole-info h2,
+.whack-a-mole .whack-a-mole-info button {
   margin-bottom: 5%;
 }
 

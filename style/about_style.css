@@ -1,3 +1,5 @@
+/* Add CSS styling here */
+
 /*############################
 General Stylings
 ############################*/
@@ -26,7 +28,8 @@ body {
 body h1:hover,
 body h2:hover,
 body h3:hover,
-body p:hover {
+body p:hover,
+li:hover {
   color: #adff2f;
 }
 
@@ -45,7 +48,12 @@ h3 {
   font-size: 2.5rem;
 }
 
-p {
+ul {
+  margin: 10px;
+}
+
+p,
+li {
   font-size: 1rem;
 }
 
@@ -55,7 +63,7 @@ a {
 
 header {
   margin-bottom: 2%;
-  background-image: url("https://wallpaperaccess.com/full/19811.jpg");
+  background-image: url("../science-background.jpg");
 }
 
 footer {
@@ -103,12 +111,20 @@ About Section
 
 .about .about-img img {
   height: 550px;
-  width: 400px;
+  width: 100%;
 }
 
 .about .about-info {
-  width: 30%;
+  width: 35%;
   margin: 10%;
+}
+
+.about .about-info ul {
+  border: 5px solid green;
+}
+
+.about .about-info li {
+  margin: 10px;
 }
 
 .about .about-info button {
@@ -135,18 +151,27 @@ About Section
 }
 
 /*############################
-Projects Section
+My Interests Section
 ############################*/
 
-.myProjects {
+.myInterests {
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: start;
   flex-wrap: wrap;
 }
 
-.myProjects img {
-  width: 400px;
-  height: 400px;
+.myInterests div {
+  width: 300px;
+  margin: 10px;
+  border-radius: 4px;
+  background: green;
+  color: white;
+}
+
+.myInterests div img {
+  width: 100%;
+  height: 250px;
   margin: 1% 0;
 }
 

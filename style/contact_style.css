@@ -45,6 +45,12 @@ h3 {
   font-size: 2.5rem;
 }
 
+form {
+  font-size: 1.5rem;
+  background: blue;
+  color: white;
+}
+
 p {
   font-size: 1rem;
 }
@@ -55,7 +61,7 @@ a {
 
 header {
   margin-bottom: 2%;
-  background-image: url("https://wallpaperaccess.com/full/19811.jpg");
+  background-image: url("https://www.tech-res.com/img/SubBanner-Communications.png");
 }
 
 footer {
@@ -93,87 +99,18 @@ header nav a:focus {
 }
 
 /*############################
-About Section
+Contact Form
 ############################*/
 
-.about {
-  display: flex;
-  justify-content: center;
-}
-
-.about .about-img img {
-  height: 550px;
-  width: 400px;
-}
-
-.about .about-info {
-  width: 30%;
-  margin: 10%;
-}
-
-.about .about-info button {
-  color: #ffffff;
-  background: blue;
-  font-size: 1rem;
-  border: 1px solid #ffffff;
-  border-radius: 25%;
-}
-
-.about .about-info button:hover {
-  transition: all 0.5s linear 0;
-  background: #adff2f;
-  color: #000000;
-}
-
-.about .about-info button:focus {
-  font-weight: bold;
-}
-
-.about .about-info h2,
-.about .about-info button {
-  margin-bottom: 5%;
+.contact-request div {
+  text-align: center;
+  margin: 25px 0;
 }
 
 /*############################
-Projects Section
+Footer
 ############################*/
 
-.myProjects {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.myProjects img {
-  width: 400px;
-  height: 400px;
-  margin: 1% 0;
-}
-
-/*############################
-Contact Section
-############################*/
-
-footer div button {
-  margin: 1% 0;
-  color: #ffffff;
-  background: blue;
-  font-size: 1rem;
-  border: 1px solid #ffffff;
-  border-radius: 25%;
-}
-
-footer div button:hover {
-  transition: all 0.5s linear 0;
-  background: #adff2f;
-  color: #000000;
-}
-
-footer div button:focus {
-  font-weight: bold;
-}
-
-footer .social-media img {
-  height: 25px;
-  width: 25px;
+footer p {
+  margin: 5px 0;
 }
